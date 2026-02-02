@@ -5,3 +5,32 @@
   border-bottom: 1px solid rgba(108,108,108,0.2);
 }
 
+.ptn {
+  background-color: #ffffff;
+  opacity: 0.1;
+  background-size: 12px 12px;
+  background-image: repeating-linear-gradient(45deg, #000000 0, #000000 1.2000000000000002px, #ffffff 0, #ffffff 50%);
+}
+
+.navigation-item:hover {
+  color: var(--bs-primary) !important;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.btn-1:hover {
+  background-color: var(--bs-white) !important;
+  border-color: var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.btn-2:hover {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: var(--bs-white) !important;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
